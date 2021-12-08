@@ -1,0 +1,60 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --brand: #5865f2;
+  --brand-gradient: linear-gradient(90deg, #8ea1e1, #7289da);
+  --font-primary: "Whitney", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+  --font-display: "Ginto Normal", "Whitney", "Helvetica Neue", "Helvetica",
+    "Arial", sans-serif;
+  --text-color-not-quite-black: #23272a;
+}
+
+header {
+  background-color: var(--brand);
+  font-family: var(--font-display);
+}
+
+nav img {
+  width: 7.75em;
+}
+
+header nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 1.25em;
+}
+
+.btn {
+  background-color: white;
+  border-radius: 2.5em;
+  padding: 0.4375em 1em;
+  font-size: 0.8em;
+  margin-right: 1em;
+  position: absolute;
+  left: -6em;
+  top: 0.4em;
+  line-height: 24px;
+  cursor: pointer;
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+a.btn {
+  text-decoration: none;
+}
+
+a:hover {
+  box-shadow: 0px 10px 30px -8px rgba(0, 0, 0, 0.47);
+}
+
+header div {
+  position: relative;
+}
+
+.hamburger {
+  margin-top: 0.625em;
+}
