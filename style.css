@@ -58,3 +58,13 @@ header div {
 .hamburger {
   margin-top: 0.625em;
 }
+
+input[type="checkbox"]:checked ~ ul {
+  right: 0;
+  top: 10;
+}
+
+ul {
+  position: fixed;
+  right: -100px;
+}
