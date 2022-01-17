@@ -7,41 +7,288 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Discord</title>
 	<link href="/style.css" rel=stylesheet />
+	<link href="/tablet.css" rel=stylesheet />
+	<link href="/desktop.css" rel=stylesheet />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Kanit:wght@300;700;900&family=Open+Sans:wght@300;400;700;800&display=swap"
+		rel="stylesheet">
+	<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+
 </head>
 
 <body>
 	<header>
 		<nav>
 			<img src="/assets/discord-logo.svg" alt="discord logo" />
+			<div class="desktop-menu">
+				<li><a href="#">Download</a></li>
+				<li><a href="#">Nitro</a></li>
+				<li><a href="#">Safety </a></li>
+				<li><a href="#">Support</a></li>
+				<li><a href="#">Blog</a></li>
+				<li><a href="#">Careers</a></li>
+			</div>
 			<div>
-				<a href="#" class="btn">Login</a>
-
-
-				<input type="checkbox" id="menu-toggle" />
-				<label for="menu-toggle">
-					<svg viewBox="0 0 100 80" width="25" height="25" class="hamburger" fill="white">
-						<rect width="100" height="20"></rect>
-						<rect y="30" width="100" height="20"></rect>
-						<rect y="60" width="100" height="20"></rect>
-					</svg>
-				</label>
-				<ul>
-					<li><a href="#" download>Download</a></li>
-					<li><a href="#">Nitro</a></li>
-					<li><a href="#">Safety</a></li>
-					<li><a href="#">Support</a></li>
-					<li><a href="#">Blog</a></li>
-					<li><a href="#">Careers</a></li>
-				</ul>
+				<a href="#" class="btn">Open Discord</a>
+				<div class="menu-wrapper">
+					<input type="checkbox" id="menu-toggle" />
+					<label for="menu-toggle">
+						<svg viewBox="0 0 100 80" width="25" height="25" class="hamburger" fill="white">
+							<rect width="100" height="20"></rect>
+							<rect y="30" width="100" height="20"></rect>
+							<rect y="60" width="100" height="20"></rect>
+						</svg>
+					</label>
+					<ul class="nav">
+						<div class="menu-head">
+							<img src="/assets/discord-logo.svg" alt="discord logo" class="slide-logo" />
+							<input type="checkbox" id="menu-toggle" />
+							<label for="menu-toggle">
+								<p class="cross">&#9587</p>
+							</label>
+						</div>
+						<div class="menu-items">
+							<li class="home-bar"><a href="https://www.google.co.uk/" class="home-link"
+									target="_blank">Home</a></li>
+							<li><a href="#" download>Download</a></li>
+							<li><a href="#">Nitro</a></li>
+							<li><a href="#">Safety <span>&#62</span></a></li>
+							<li><a href="#">Mod Academy<span>&#62</span></a></li>
+							<li><a href="#">Support</a></li>
+							<li><a href="#">Blog</a></li>
+							<li><a href="#">Careers</a></li>
+						</div>
+						<a href="#" class="btn2" download>
+							<svg width="24" height="24" viewBox="0 0 24 24" class="download-icon">
+								<g fill="currentColor">
+									<path
+										d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z">
+									</path>
+									<path
+										d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z">
+									</path>
+								</g>
+							</svg>
+							Download for Windows
+						</a>
+					</ul>
+				</div>
 
 			</div>
 		</nav>
-		<h1>Imagine a Place...</h1>
-		<p>...where you can belong to a school club, a gaming group, or a worldwide art community. Where just you and a
-			handful of friends can spend time together. A place that makes it easy to talk every day and hang out more
-			often.</p>
+		<section class="hero-container">
+			<div class="herotext-block">
+				<h1>Imagine a Place...</h1>
+				<p class="hero-text">...where you can belong to a school club, a gaming group, or a worldwide art
+					community.
+					Where just you
+					and a
+					handful of friends can spend time together. A place that makes it easy to talk every day and hang
+					out
+					more
+					often.
+				</p>
+				<div class="btn-header">
+					<button class="btn3">
+						<span class="download-icon2">
+							<svg width="24" height="24" viewBox="0 0 24 24">
+								<g fill="currentColor">
+									<path
+										d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z">
+									</path>
+									<path
+										d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z">
+									</path>
+								</g>
+							</svg></span>Download for Windows</button>
+					<div class=".btn4-wrap">
+						<a href="#" class="btn4">Open Discord in your browser</a>
+					</div>
+				</div>
+			</div>
+			<div class="hero-grouped">
+				<div class="sunglass-bird">
+					<img src="/assets/hero-img-L.svg" class="hero-img" alt="hero picture of birds" />
+				</div>
+				<div class="drinking-bird">
+					<img src="assets/hero-img-tablet1backup.png" class="hero-imgtab1" alt="hero picture of birds two" />
+				</div>
+			</div>
+		</section>
+		<!-- <div class="hero-grouped">
+			<div>
+				<img src="/assets/hero-img-L.svg" class="hero-img" alt="hero picture of birds" />
+			</div>
+			<div>
+				<img src="assets/hero-img-tablet1backup.png" class="hero-imgtab1" alt="hero picture of birds two" />
+			</div>
+		</div> -->
 	</header>
+	<main class="features-container ">
+		<div class="feature1-wrap">
+			<section class="feature1-container">
+				<div>
+					<img src="assets/feature-1-img.svg" alt="picture of invite feature discord" class="feature1img" />
+				</div>
+				<div class="feature1-text">
+					<h2>Create an invite-only place
+						where you belong</h2>
+					<p>Discord servers are organized into topic-based channels where you can collaborate, share, and
+						just
+						talk
+						about your day without clogging up a group chat.
+					</p>
+				</div>
+			</section>
+		</div>
+		<div class="feature2-wrap">
+			<section class="feature2-container">
+				<div>
+					<img src="assets/feature-2-img.svg" alt="picture of voice feature discord" class="feature2img" />
+				</div>
+				<div class="feature2-text">
+					<h2>Where hanging out is easy</h2>
 
+					<p>Grab a seat in a voice channel when you’re free. Friends in your server can see you’re around and
+						instantly pop in to talk without having to call.</p>
+				</div>
+			</section>
+		</div>
+		<div class="feature3-wrap">
+			<section class="feature3-container">
+				<div>
+					<img src="assets/feature-3-img.svg" alt="picture of member feature discord" class="feature3img" />
+				</div>
+				<div class="feature3-text">
+					<h2>From few to a fandom</h2>
+
+					<p>Get any community running with moderation tools and custom member access. Give members special
+						powers,
+						set up private channels, and more.</p>
+				</div>
+			</section>
+		</div>
+		<div class="feature4-wrap">
+			<section class="feature4-container">
+				<h2 class="feature4hdr">Reliable tech for staying close</h2>
+				<p>Low-latency voice and video feels like you’re in the same room. Wave hello over video, watch friends
+					stream their games, or gather up and have a drawing session with screen share.</p>
+				<img src="/assets/feature-4-img.svg" alt="picture of video share features" class="feature4img" />
+			</section>
+		</div>
+		<section class="download-area">
+			<img src="/assets/download-section-img.svg" alt="sparkles background" class="sparkles-img" />
+			<h4 class="download-headr">Ready to start your journey?</h4>
+			<div class="download-wrapper">
+				<a href="#" class="btn5" download>
+					<svg width="24" height="24" viewBox="0 0 24 24" class="download-icon3">
+						<g fill="currentColor">
+							<path
+								d="M17.707 10.708L16.293 9.29398L13 12.587V2.00098H11V12.587L7.70697 9.29398L6.29297 10.708L12 16.415L17.707 10.708Z">
+							</path>
+							<path
+								d="M18 18.001V20.001H6V18.001H4V20.001C4 21.103 4.897 22.001 6 22.001H18C19.104 22.001 20 21.103 20 20.001V18.001H18Z">
+							</path>
+						</g>
+					</svg>
+					Download for Windows
+				</a>
+			</div>
+		</section>
+
+	</main>
+	<footer>
+		<div class="footer-wrap">
+			<div class="footer-container">
+				<div>
+					<div class="title-language">
+						<h4>Imagine a Place</h4>
+						<label for="language-picker"></label>
+						<select name="language-picker" id="language-picker" class="language-menu">
+							<option value="english"><span>🇺🇸</span>
+								<p>English, USA</p>
+							</option>
+							<option value="spanish"><span>🇪🇸</span>
+								<p>Espanol</p>
+							</option>
+						</select>
+					</div>
+					<div class="social-media">
+						<ul class="social-icons">
+							<li><a href="https://twitter.com/discord"><img src="/assets/twitter-png.png"
+										alt="twitter icon" class="twitter" /></a></li>
+							<li><a href="https://www.instagram.com/discord"><img src="/assets/instagram-logo.png"
+										alt="instagram icon" class="instagram" /></a></li>
+							<li><a href="https://www.facebook.com/discord/"><img src="/assets/facebook-logo.png"
+										alt="facebook icon" class="facebook" /></a></li>
+							<li><a href="https://www.youtube.com/discord/"><img src="/assets/youtube-logo.png"
+										alt="youtube icon" class="youtube" /></a></li>
+						</ul>
+					</div>
+				</div>
+				<aside class="outlinks-container">
+					<div class="f-desktop-links">
+						<div class="outlinks1-wrapper">
+							<div class="product-outlinks">
+								<h5>Product</h5>
+								<ul>
+									<li><a href="#">Download</a></li>
+									<li><a href="#">Nitro</a></li>
+									<li><a href="#">Status</a></li>
+								</ul>
+							</div>
+							<div class="company-outlinks">
+								<h5>Company</h5>
+								<ul>
+									<li><a href="#">About</a></li>
+									<li><a href="#">Jobs</a></li>
+									<li><a href="#">Branding</a></li>
+									<li><a href="#">Newsroom</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="outlinks2-wrapper">
+							<div class="resources-outlinks">
+								<h5>Resources</h5>
+								<ul>
+									<li><a href="#">College</a></li>
+									<li><a href="#">Support</a></li>
+									<li><a href="#">Safety</a></li>
+									<li><a href="#">Blog</a></li>
+									<li><a href="#">Feedback</a></li>
+									<li><a href="#">Developers</a></li>
+									<li><a href="#">Streamkit</a></li>
+								</ul>
+							</div>
+							<div class="policies-outlinks">
+								<h5>Policies</h5>
+								<ul>
+									<li><a href="#">Terms</a></li>
+									<li><a href="#">Privacy</a></li>
+									<li><a href="#">Cookie Settings</a></li>
+									<li><a href="#">Guidelines</a></li>
+									<li><a href="#">Acknowledgements</a></li>
+									<li><a href="#">Licenses</a></li>
+									<li><a href="#">Moderation</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</aside>
+
+			</div>
+			<div class="discord-outlinks">
+				<div>
+					<img src="/assets/discord-logo.svg" alt="discord logo" />
+				</div>
+				<div>
+					<a href="#" class="btn6">Open Discord</a>
+				</div>
+			</div>
+		</div>
+
+	</footer>
 </body>
 
 </html>

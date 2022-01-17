@@ -1,0 +1,133 @@
+@media (min-width: 1024px) {
+  .menu-wrapper {
+    display: none;
+  }
+
+  header p,
+  section p {
+    font-size: 1.1em;
+  }
+
+  .desktop-menu {
+    display: flex;
+    color: #fff;
+    list-style-type: none;
+    justify-content: space-evenly;
+    width: 100%;
+    padding: 0em 12em 0em 12em;
+    max-width: 1024px;
+  }
+
+  .desktop-menu a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .desktop-menu a:hover {
+    text-decoration: underline;
+  }
+
+  .hero-grouped {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+    max-width: 1500px;
+    margin-bottom: -100px;
+  }
+
+  .hero-img {
+    display: flex;
+    width: 689px;
+    height: 352px;
+    padding-top: 0em;
+    padding-bottom: 0em;
+    position: static;
+    margin-left: -500px;
+  }
+
+  .hero-imgtab1 {
+    display: flex;
+    /* padding-left: 100px;
+    margin-left: 200px;
+    margin-top: -10px; */
+    position: static;
+    width: 447px;
+    height: 360px;
+    margin-right: -300px;
+  }
+
+  /* .hero-container {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 30%;
+  } */
+
+  .hero-container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+    margin: 1px;
+  }
+
+  .sunglass-bird {
+    padding-top: 10px;
+  }
+
+  header h1 {
+    padding-top: 100px;
+  }
+
+  .btn-header {
+    display: flex;
+    flex-direction: row;
+    gap: 1em;
+  }
+
+  .herotext-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: -300px;
+    z-index: 100;
+  }
+
+  .btn4 {
+    display: block;
+    flex-direction: row;
+    margin-top: 1.2em;
+  }
+
+  .f-desktop-links {
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+  }
+
+  .product-outlinks {
+    padding-right: 3em;
+  }
+
+  .title-language {
+    margin: 0;
+  }
+
+  /* .outlinks2-wrapper {
+    padding: 0 5em;
+  } */
+
+  /* .hero-img {
+    display: block;
+    margin: 0;
+    padding: 0;
+  }
+
+  .hero-imgtab1 {
+    display: block;
+    margin: 100px;
+    padding: 0;
+  } */
+}

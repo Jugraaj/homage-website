@@ -1,0 +1,94 @@
+@media (min-width: 768px) {
+  .desktop-menu {
+    display: none;
+  }
+
+  .hero-img {
+    display: none;
+  }
+
+  .hero-imgtab1 {
+    display: flex;
+    /* padding-left: 100px;
+    margin-left: 200px;
+    margin-top: -10px; */
+    position: absolute;
+    bottom: -160px;
+    right: 100px;
+  }
+
+  header {
+    background-image: url(/assets/hero-img-tabletbck1.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 100px;
+  }
+
+  header h1 {
+    font-size: 4.5em;
+    line-height: 1em;
+    width: 50%;
+  }
+
+  header p {
+    padding-bottom: 1em;
+    width: 50%;
+  }
+
+  section h2 {
+    font-size: 2.5em;
+  }
+
+  .feature1-text,
+  .feature2-text,
+  .feature3-text {
+    width: 50%;
+    max-width: 880px;
+  }
+
+  .feature1-container,
+  .feature3-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .feature2-container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  }
+
+  .feature4hdr {
+    font-size: 2.4em;
+    text-align: center;
+  }
+
+  .feature4-container {
+    text-align: center;
+  }
+
+  .download-wrapper {
+    justify-content: center;
+    display: flex;
+  }
+
+  .download-headr {
+    text-align: center;
+  }
+
+  .footer-container {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .title-language {
+    margin-left: -4.5em;
+  }
+
+  /* .outlinks-container {
+    padding-left: 10em;
+  } */
+}
